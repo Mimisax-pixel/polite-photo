@@ -36,6 +36,7 @@ function App() {
       <Portfolio  setselectedPage={setSelectedPage}/>
       <AboutMe setselectedPage={setSelectedPage}/>
       <ContactUs setselectedPage={setSelectedPage}/>
+      
     </div>
   );
 }
