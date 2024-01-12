@@ -12,7 +12,7 @@ const ContactUs = ({setselectedPage}: Props) => {
     <div id="Contact" className="w-full h-screen bg-yellow-500 p-4 text-white">
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pt-10">
-          <p className="text-5xl md:text-4xl font-bold border-white">Contact</p>
+          <p className="text-5xl md:text-4xl font-bold border-white">Let's connect <span role="img" aria-label="love">🫶</span></p>
           <p className="py-6 text-white">Send Me a Message</p>
         </div>
         <div className="flex justify-center items-center ">

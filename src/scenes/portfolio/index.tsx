@@ -48,7 +48,7 @@ type Props = {
 
 const Portfolio = ({setselectedPage}: Props) => {
     // const isAboveMeduimScreens = useMediaQuery ("(min-width: 1060px)");
-  return <section id="Portfolio" className="mx-auto min-h-full w-5/6 py-20 text-5xl font-bold">Portfolio
+  return <section id="Portfolio" className="mx-auto min-h-full w-5/6 py-20 text-5xl mt-5 font-bold">Portfolio
    <div>
     <h1 className="basis-3/5 text-2xl font-light md:w-3/5">Take a look at these wonderful Pictures taken by Me</h1>
    </div>

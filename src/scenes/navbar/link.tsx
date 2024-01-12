@@ -20,7 +20,7 @@ const Link = ({page,
     className={`${selectedPage === lowerCasePage ? "text-gray-100" : ""}
     transition duration-500 hover:text-red-500 cursor-pointer`}
     href={`#${lowerCasePage}`}
-    onClick={ () => setSelectedPage(lowerCasePage)}
+    onClick={() => setSelectedPage(lowerCasePage)}
     
     >
         {page}
