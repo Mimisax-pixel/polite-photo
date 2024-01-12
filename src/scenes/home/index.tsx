@@ -1,6 +1,6 @@
 import { SelectedPage } from "@/shared/type";
 import useMediaQuery from "@/hooks/useMediaQuerry";
-import Miracle from "@/assets/photographer.png.jpg"
+import Miracle from "@/assets/ij5.jpg"
 import { motion } from "framer-motion";
 
 
@@ -19,10 +19,10 @@ const Home = ({ setselectedPage }: Props) => {
                 <h1 className="text-5xl font-extrabold">Polite Photography</h1>
             </div>
   
-            <p className="mt-8 text-2xl sm:text-2xl md:text-start">
+            <p className="mt-8 text-2xl sm:text-2xl text-start md:text-start">
                   Hello!! Welcome to my Photography World.</p>
        </motion.div>
-     <div className="flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end h-96">
+     <div className="flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end">
       <img src={Miracle} />
       
     </div>

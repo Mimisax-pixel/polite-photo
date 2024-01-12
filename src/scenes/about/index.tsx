@@ -18,7 +18,7 @@ const AboutMe = ({setselectedPage}: Props) => {
               
           </div>
 
-          <p className="mt-8 text-sm md:text-start">
+          <p className="mt-8 text-sm text-start md:text-start">
                 Polite Godwin is a landscape and lifestyle photographer, working in Nigeria. He has a timeless
                and honest photography style. Polite 
                 likes to create visual stories and focus on unseen details.
