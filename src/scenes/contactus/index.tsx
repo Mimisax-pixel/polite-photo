@@ -9,7 +9,7 @@ type Props = {
 
 const ContactUs = ({setselectedPage}: Props) => {
   return  (
-    <div id="Contact" className="w-full h-screen bg-yellow-500 p-4 text-white">
+    <div id="Contact" className="w-full h-screen bg-yellow-500 p-4">
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pt-10">
           <p className="text-5xl md:text-4xl font-bold border-white">Let's connect <span role="img" aria-label="love">🫶</span></p>

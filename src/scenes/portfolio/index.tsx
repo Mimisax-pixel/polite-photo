@@ -3,6 +3,7 @@ import Edwin from "@/assets/edwin 5.jpg"
 import Esther from "@/assets/edwin-1.jpg"
 import Edet from "@/assets/edet1.jpg"
 import Lady from "@/assets/IMG_0196.jpg"
+
 import useMediaQuery from "@/hooks/useMediaQuerry"
 import { ClassPortfolio, SelectedPage } from "@/shared/type";
 import Class from "./Class";
@@ -23,7 +24,7 @@ const classes: Array<ClassPortfolio> = [
   }, 
 
   {
-    name: "Fair people are beautiful",
+    name: "Fair lady",
     description: "",
     image: Esther,
   },
@@ -52,7 +53,7 @@ const Portfolio = ({setselectedPage}: Props) => {
    <div>
     <h1 className="basis-3/5 text-2xl font-light md:w-3/5">Take a look at these wonderful Pictures taken by Me</h1>
    </div>
-   <div className="mt-10 h-[-353px] w-full overflow-x-auto overflow-y-hidden">
+   <div className="mt-10 w-full overflow-x-auto overflow-y-hidden ">
     <ul className=" whitespace-nowrap">
         {classes.map((item, ClassPortfolio, index) => (
            <Class
