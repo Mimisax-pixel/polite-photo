@@ -50,7 +50,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage}: Props) => {
     {/* MOBILE MENU */}
 
     {!isAboveMeduimScreens && isMenuToggled && (
-      <div className="fixed right-0 bottom-0 z-30 h-full w-[300px] bg-gray-300 drop-shadow-xl">
+      <div className="fixed right-0 bottom-0 z-30 h-full w-[300px] bg-yellow-500 drop-shadow-xl">
 
         {/*CLOSE ICON */}
 

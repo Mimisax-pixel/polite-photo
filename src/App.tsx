@@ -38,7 +38,7 @@ function App() {
 
   return (
     <div className={`container ${darkMode ? 'dark-mode' : ''}`}>
-      <button onClick={toggleDarkMode} className=" absolute left-60 px-4 py-3 my-10
+      <button onClick={toggleDarkMode} className=" absolute left-60 md:absolute left-70 px-4 py-3 my-10
             cursor-pointer hover: duration-75">
          {darkMode ? (
           <FontAwesomeIcon icon={faSun} size="2x" />

@@ -1,6 +1,7 @@
 import { SelectedPage } from "@/shared/type";
 import Polite from "@/assets/black.jpg"
 import { motion } from "framer-motion";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 
 type Props = {
@@ -8,6 +9,7 @@ setselectedPage: (value: SelectedPage) => void
 };
 
 const AboutMe = ({setselectedPage}: Props) => {
+  
   return <section id = "AboutMe" className="gap-16 py-10 md:h-full md:pb-0">
   <div className="md:flex mx-auto w-5/6 items-center justify-center md:h-5/6">
 
